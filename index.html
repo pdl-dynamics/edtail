@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <link href="assets/css/screen.css" rel="stylesheet"> 
+    <script src="../viewer/js/monitor.js"></script>   
+	<script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</head>
+<body class="landing">
+<div id="Main">
+<div id="Content">
+<style>
+.landing .nav, .landing #Logo { z-index: 5; }
+#cover { background:url(assets/img/umbrella-animation/landing-img.png) no-repeat 0 0; height: 768px;}
+.state, .umbrella { position: absolute; top: 0; left: 0; }
+.state.one { -webkit-animation:state 2s 3s 1 both; }
+.state.two { -webkit-animation:state 2s 6s 1 both; }
+.state.three { -webkit-animation:state 2s 9s 1 both; }
+.state.four { -webkit-animation:state 2s 12s 1 both; }
+.state.five { -webkit-animation:state 2s 15s 1 both; }
+.state.six { -webkit-animation:state 2s 18s 1 both; }
+.state.seven { -webkit-animation:state 2s 21s 1 both; }
+.state.eight { -webkit-animation:state 2s 24s 1 both; }
+#O1 { top: 53px; left: 353px; -webkit-animation:state 2s 24s 1 both;}
+#O2 { top: 80px; left: 602px; -webkit-animation:state 2s 24s 1 both;}
+#O3 { top: 506px; left: 776px; -webkit-animation:state 2s 24s 1 both;}
+#O4 { top: 515px; left: 555px; -webkit-animation:state 2s 24s 1 both;}
+#O5 { top: 499px; left: 246px; -webkit-animation:state 2s 24s 1 both;}
+.cs-cta { display: block; height: 200px; position: absolute; width: 200px; -webkit-border-radius: 50%; }
+.cs-cta-2 { left: 624px; top: 11px; }
+/*@-webkit-keyframes state {  
+    from {  
+      opacity: 0; 
+    }  
+  
+    to {  
+      opacity: 1;  
+    }
+}*/
+#o1 { background:url(assets/img/umbrella-animation/pu1.png)no-repeat 0 0; }
+#o2 { background:url(assets/img/umbrella-animation/pu2.png)no-repeat 0 0; }
+#o3 { background:url(assets/img/umbrella-animation/pu3.png)no-repeat 0 0; }
+#o4 { background:url(assets/img/umbrella-animation/pu4.png)no-repeat 0 0; }
+#o5 { background:url(assets/img/umbrella-animation/pu5.png)no-repeat 0 0; }
+#re1 { right: 342px; top: 75px; }
+#re2 { right: 511px; top: 135px; }
+#re3 { right: 346px; bottom: 76px; }
+#re4 { right: 85px; bottom: 150px; }
+#re5 { left: 430px; bottom: 195px; }
+#o1 .overlay-close { left: 354px; top: 51px; right: 0; }
+#o2 .overlay-close { right: 370px; top: 79px; }
+#o3 .overlay-close { top: 505px; right: 197px; }
+#o4 .overlay-close { top: 515px; right: 416px; }
+#o5 .overlay-close { top: 500px; left: 247px; }
+.cs-pop { display: block; height: 50px; position: absolute; width: 50px; -webkit-border-radius: 50%; }
+</style>
+<div id="Slides">
+<section id="cover" class="slide" data-tracking-section="Case study landing page" data-tracking-title="Case study landing page"  data-page="1" data-tracking-id="id10">
+<img class="state one" src="assets/img/umbrella-animation/fade1.png" width="1024" height="768" />
+<img class="state two" src="assets/img/umbrella-animation/fade2.png" width="1024" height="768" />
+<img class="state three" src="assets/img/umbrella-animation/fade3.png" width="1024" height="768" />
+<img class="state four" src="assets/img/umbrella-animation/fade4.png" width="1024" height="768" />
+<img class="state five" src="assets/img/umbrella-animation/fade5.png" width="1024" height="768" />
+<img class="state six" src="assets/img/umbrella-animation/fade6.png" width="1024" height="768" />
+<img class="state seven" src="assets/img/umbrella-animation/fade7.png" width="1024" height="768" />
+
+<div class="umbrella">
+<img class="state eight" src="assets/img/umbrella-animation/fade8.png" width="1024" height="768" />
+<a class="track-exit cs-cta cs-cta-2" href="cs-emily.html"></a>
+<a id="O1" data-track="o-open" class="cs-pop overlay-cta" href="#o1"></a>
+<a id="O2" data-track="o-open" class="cs-pop overlay-cta" href="#o2"></a>
+<a id="O3" data-track="o-open" class="cs-pop overlay-cta" href="#o3"></a>
+<a id="O4" data-track="o-open" class="cs-pop overlay-cta" href="#o4"></a>
+<a id="O5" data-track="o-open" class="cs-pop overlay-cta" href="#o5"></a>
+</div>
+</section>
+</div>
+<section class="overlays" id="Overlays">
+    <div class="overlay-box">
+        <article class="overlay" id="o1">
+        	<a id="re1" class="reference-cta" href="#r1"></a>
+            <a data-track="o-close" class="overlay-close"></a>
+        </article>
+        
+        <article class="overlay" id="o2">
+        	<a id="re2" class="reference-cta" href="#r1"></a>
+            <a data-track="o-close" class="overlay-close"></a>
+        </article>
+        
+        <article class="overlay" id="o3">
+        	<a id="re3" class="reference-cta" href="#r1"></a>
+            <a data-track="o-close" class="overlay-close"></a>
+        </article>
+        
+        <article class="overlay" id="o4">
+        	<a id="re4" class="reference-cta" href="#r1"></a>
+            <a data-track="o-close" class="overlay-close"></a>
+        </article>
+        
+        <article class="overlay" id="o5">
+        	<a id="re5" class="reference-cta" href="#r1"></a>
+            <a data-track="o-close" class="overlay-close"></a>
+        </article>
+    </div>    
+</section>
+
+<section class="references" id="References">
+    <div class="reference-box">
+        <article class="reference" id="r1">
+     		<p><p><span>1.</span> BOTOX<sup>®</sup> - UK Summary of Product Characteristics.</p></p>
+        </article>
+    <a class="reference-close"></a>
+    </div>
+</section>
+
+<script>
+CLI.onLoadCallback = function() {
+
+  "use strict";
+
+  // Track Slide 1 (zero indexed)
+  //CLI.Slides.Tracking(0);
+};
+</script>
+</div>
+<nav class="nav" id="Nav">
+<ul class="np">
+<li class="np-menu"><a href="#NavSec"></a></li>
+<li class="np-pi"><a href="pi.html"></a></li>
+<li class="np-bi"><a href="bibliography.html"></a></li>
+</ul>
+<ul class="ns">
+<li class="ns-home"><a href="index.html">Home</a></li>
+<li><a data-tertiary="NTCaseStudies" href="cs-emily.html">Case<br> Studies</a></li>
+<li><a data-tertiary="NTQualityLlife" href="qol.html">Quality<br> of Life</a></li>
+<li><a data-tertiary="NTEfficacy" href="efficacy.html">Efficacy</a></li>
+<li><a data-tertiary="NTTolerability" href="tolerability.html">Tolerability<br/>Profile</a></li>
+<li><a data-tertiary="NTDosing" href="dosing.html">Dosing &amp;<br> Administration</a></li>
+<li><a data-tertiary="NTSummary" href="summary.html">Summary</a></li>
+<li><a data-tertiary="NTFAQs" href="faqs.html">FAQs</a></li>
+</ul>
+<div class="nt" id="NTCaseStudies">
+  <div class="nt-i">
+    <ul>
+      <li><a href="cs-emily.html"><img height="68" src="assets/img/global/cse-thumb1.png" width="91">Chronic Migraine</a></li>
+      <li><a href="cs-emily.html#slide2"><img height="68" src="assets/img/global/cse-thumb2.png" width="91">Disease burden</a></li>
+      <li><a href="cs-emily.html#slide3"><img height="68" src="assets/img/global/cse-thumb.png" width="91">Emily</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTQualityLlife">
+  <div class="nt-i">
+    <ul>
+      <li><a href="qol.html"><img height="68" src="assets/img/global/qol-thumb2.png" width="91"> Role restrictive</a></li>
+      <li><a href="qol.html#qol-2"><img height="68" src="assets/img/global/qol-thumb3.png" width="91"> Role Preventative</a></li>
+      <li><a href="qol.html#qol-3"><img height="68" src="assets/img/global/qol-thumb4.png" width="91"> Emotional Function</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTEfficacy">
+  <div class="nt-i">
+    <ul>
+      <li><a href="efficacy.html"><img height="68" src="assets/img/global/efficacy-thumb1.png" width="91"> Headache Frequency</a></li>
+      <li><a href="efficacy.html#efficacy-2"><img height="68" src="assets/img/global/efficacy-thumb2.png" width="91"> Triptan Intake </a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTTolerability">
+  <div class="nt-i">
+    <ul>
+      <li><a href="tolerability.html"><img height="68" src="assets/img/global/tol-thumb1.png" width="91"> Adverse Events</a></li>
+      <li><a href="tolerability.html#tolerability-2"><img height="68" src="assets/img/global/tol-thumb2.png" width="91"> Discontinuation Rates</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTDosing">
+  <div class="nt-i">
+    <ul>
+      <li><a href="dosing.html"><img height="68" src="assets/img/global/dose-thumb1.png" width="91"> SPECIFICALLY LICENSED FOR CHRONIC MIGRAINE</a></li>
+      <li><a href="dosing.html#dosing-2"><img height="68" src="assets/img/global/dose-thumb2.png" width="91"> Follow the Pain</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTSummary">
+  <div class="nt-i">
+    <ul>
+      <li><a href="summary.html"><img height="68" src="assets/img/global/summary-thumb1.png" width="91"> Summary</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+<div class="nt" id="NTFAQs">
+  <div class="nt-i">
+    <ul>
+      <li><a href="faqs.html"><img height="68" src="assets/img/faq/faq-thumb.png" width="91">Adherence to oral prophylactics</a></li>
+    </ul>
+  </div>
+  <span class="nt-b"></span>
+</div>
+</nav>
+<img id="Logo" src="assets/img/global/logo.png" width="250" height="100" alt="Botox">
+</div>
+</body>
+</html>
